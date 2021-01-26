@@ -6,7 +6,11 @@ Time series modelling using GMM (Gaussian Mixture Modelling) and Expectation Max
 
 #Problem Statement : 
 
-Understanding the behaviour of 2 returns over a period of time and correlation between the two. Clustering the similar returns. The concept of pair trading has been implemented in the code and Expectancy of the pairs to converge will give the better assessment for investing at the right time.   
+1. Understanding the stationarity of the returns
+2. Understanding the behaviour of returns over a period of time while understanding the fundamental differences in the distributions for the test and train splits before GMM implementation. 
+3. Selecting the observations with maximum likelihood to be from the same distribution
+4. applying the GMM for the distribution clusters in the pobability space
+5. Applying EM to tune the problabilty parameters and to get the future predictions based on the current distribution of the training values 
 
 The unsupervised method to understand the historical prices and calculating the returns based on the past behaviour comes under 'Priced based trading strategy'
 
