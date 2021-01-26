@@ -1,3 +1,5 @@
+---- Current Project ----- Steps completed 3. 4 and 5 
+
 # Fin-StatisticalArbitrage
 
 The financial model is a implementation of techniques shown in the fantastic paper 'Machine Learning in Asset Management' by Derek Snow.
@@ -11,6 +13,7 @@ Time series modelling using GMM (Gaussian Mixture Modelling) and Expectation Max
 3. Selecting the observations with maximum likelihood to be from the same distribution
 4. applying the GMM for the distribution clusters in the pobability space
 5. Applying EM to tune the problabilty parameters and to get the future predictions based on the current distribution of the training values 
+6. Selecting the most efficient model using AUC and Drawdown, return metrics 
 
 The unsupervised method to understand the historical prices and calculating the returns based on the past behaviour comes under 'Priced based trading strategy'
 
